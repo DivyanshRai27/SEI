@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "",
         String(data.get("details") || ""),
       ].join("\n");
-      window.location.href = `mailto:sales@superenggindia.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = `mailto:bodhraj@superenggindia.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     });
   }
 });
